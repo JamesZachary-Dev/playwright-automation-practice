@@ -1,90 +1,41 @@
-Playwright Automation Testing Portfolio
+# Playwright Automation Testing Portfolio
 
-This repository demonstrates hands-on end-to-end test automation using Playwright with TypeScript.
-It focuses on building maintainable UI tests using the Page Object Model (POM) and clean test architecture.
+This repository demonstrates hands-on UI test automation using Playwright with TypeScript.
+It focuses on building maintainable automated tests using the Page Object Model and structured test design.
 
-The project uses the SauceDemo application to simulate realistic e-commerce testing scenarios.
+---
 
-Application Under Test
-SauceDemo
+## Application Tested
 
+### SauceDemo
 https://www.saucedemo.com/
 
 Test areas covered:
+- Login validation
+- Inventory interactions
+- Add to cart functionality
+- Cart state validation
 
-Login validation
+---
 
-Inventory interactions
+## Automation Structure
 
-Add to cart functionality
-
-Cart state verification
-
-Automation Features Demonstrated
-
-Playwright test framework
-
-TypeScript test development
-
-Page Object Model architecture
-
-Locator abstraction
-
-Cross-browser test execution
-
-Structured test grouping
-
-Maintainable test design
-
-Tests currently run across:
-
-Chromium
-
-Firefox
-
-WebKit
-
-Repository Structure
 pages/
-   LoginPage.ts
-   InventoryPage.ts
-   CartPage.ts
+Contains Page Object classes responsible for managing selectors and reusable page actions.
 
 tests/
-   saucedemo.spec.ts
+Contains automated test suites grouped by feature.
 
 playwright.config.ts
+Defines Playwright configuration including cross-browser test execution.
 
-pages/
-Contains Page Object classes that manage locators and reusable page actions.
+---
 
-tests/
-Contains Playwright test suites grouped by feature.
+## Skills Demonstrated
 
-Skills Demonstrated
-
-UI test automation
-
-Page Object Model design
-
-Test architecture organization
-
-Cross-browser testing
-
-Maintainable test structure
-
-Locator strategy
-
-Automation debugging using Playwright tools
-
-Future Enhancements
-
-Planned improvements for the project include:
-
-Additional inventory and cart tests
-
-Shared login setup using Playwright hooks
-
-Expanded test coverage for checkout flow
-
-Improved test data management
+- UI test automation
+- Page Object Model (POM)
+- Locator strategy
+- Cross-browser testing
+- Test architecture organization
+- Automation debugging using Playwright tools
